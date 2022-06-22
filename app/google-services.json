@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230791995157",
+    "project_id": "km-regscan",
+    "storage_bucket": "km-regscan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230791995157:android:3ece4b9fe34a609ea2131c",
+        "android_client_info": {
+          "package_name": "com.example.kmregscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230791995157-ivp01fibq8np4gelqgau52isj1rbpl29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kmregscan",
+            "certificate_hash": "5e84477d4bc3cb68cd13d67a6b4a4373e1979716"
+          }
+        },
+        {
+          "client_id": "230791995157-1p56s7em46rb6k04bcf0mmakth3eje6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoGYiuh237aZzisLz6wbSWek-MI4KFDI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230791995157-1p56s7em46rb6k04bcf0mmakth3eje6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

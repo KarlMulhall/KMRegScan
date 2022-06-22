@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,18 +13,31 @@
 <!--        android:layout_height="300dp"-->
 <!--        android:src="@drawable/reg_plate_tester1"-->
 <!--        />-->
+
+    <TextView
+        android:id="@+id/user_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Display logged in user"
+        android:textSize="30dp"
+        android:maxLines="1"
+        />
     <TextView
         android:id="@+id/reg_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Display reg text from image"
         android:textSize="30dp"
         android:maxLines="1"
+        android:layout_below="@id/user_text_view"
         />
     <TextView
         android:id="@+id/make_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Display make and model"
         android:textSize="30dp"
         android:maxLines="1"
@@ -33,15 +47,17 @@
         android:id="@+id/description_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Display description"
         android:textSize="30dp"
-        android:maxLines="1"
+        android:maxLines="3"
         android:layout_below="@id/make_text_view"
         />
     <TextView
         android:id="@+id/engine_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Display Engine Capacity"
         android:textSize="30dp"
         android:maxLines="1"
@@ -51,6 +67,7 @@
         android:id="@+id/capture_image_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Capture Image"
         android:layout_above="@+id/detect_text_button"
         />
@@ -58,6 +75,7 @@
         android:id="@+id/detect_text_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:layout_alignParentBottom="true"
         android:text="Clear Text"
         />
